@@ -4,8 +4,8 @@ import React, { createContext, useState, useEffect } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 
-// IMPORTANT: Ensure this IP matches your local development server
-const BASE_URL = 'http://192.168.8.103:8000/api/';
+// IMPORTANT: Production API URL on Render.com
+const BASE_URL = 'https://backendfinalspeitel.onrender.com/api/';
 
 export const AuthContext = createContext();
 
